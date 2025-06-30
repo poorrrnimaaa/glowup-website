@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.login-btn {
+  border: 2px solid #333;
+  border-radius: 20px;
+  font-weight: 500;
+}
+.login-btn:hover {
+  background-color: #333;
+  color: white;
+}
+.signup-btn {
+  background-color: white;  
+  font-weight: 500;
+  border-radius: 20px;
+  border: 2px solid #333;
+  margin-top: 2%;
+}
+.signup-btn:hover {
+  background-color: #333;
+  color: white;
+}
+.card-text {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
+  font-size: 1rem;
+  text-align: center;
+}
+.card {
+  margin: 15px auto;
+  border: none;
+}
+.card-img-top {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+@media (max-width: 576px) {
+  h2 {
+    font-size: 1.2rem;
+  }
+  .card-img-top {
+    height: 180px;
+  }
+  .card-text {
+    font-size: 0.9rem;
+  }
+  .navbar-brand {
+    font-size: 1.1rem !important;
+  }
+  .nav-link {
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 600px) {
+  .carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+  }
+}
+.carousel-item img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+@media (min-width: 768px) {
+  .card-img-top {
+    height: 220px;
+  }
+}
+@media (max-width: 767px) {
+  .card-img-top {
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: contain; 
+  }
+}
+
+.my_title{
+  text-transform: capitalize;
+  font-weight: bolder;
+  margin-bottom: 2%;
+}
+
+.contact_img
+ {
+    width: 100%;
+    height: 320px;
+ }
+
+.custom-submit-btn {
+  background-color: white;
+  border: 2px solid #333;
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-weight: 500;
+  color: #333;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.custom-submit-btn:hover {
+  background-color: #333;
+  color: white;
+}
