@@ -1,0 +1,177 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.login-btn {
+  border: 2px solid #333;
+  border-radius: 20px;
+  font-weight: 500;
+}
+.login-btn:hover {
+  background-color: #333;
+  color: white;
+}
+.signup-btn {
+  background-color: white;  
+  font-weight: 500;
+  border-radius: 20px;
+  border: 2px solid #333;
+  margin-top: 2%;
+}
+.signup-btn:hover {
+  background-color: #333;
+  color: white;
+}
+.card-text {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
+  font-size: 1rem;
+  text-align: center;
+}
+.card {
+  margin: 15px auto;
+  border: none;
+}
+.card-img-top {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+@media (max-width: 576px) {
+  h2 {
+    font-size: 1.2rem;
+  }
+  .card-img-top {
+    height: 180px;
+  }
+  .card-text {
+    font-size: 0.9rem;
+  }
+  .navbar-brand {
+    font-size: 1.1rem !important;
+  }
+  .nav-link {
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 600px) {
+  .carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+  }
+}
+.carousel-item img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+@media (min-width: 768px) {
+  .card-img-top {
+    height: 220px;
+  }
+}
+@media (max-width: 767px) {
+  .card-img-top {
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: contain; 
+  }
+}
+
+.my_title{
+  text-transform: capitalize;
+  font-weight: bolder;
+  margin-bottom: 2%;
+}
+
+.contact_img
+ {
+    width: 100%;
+    height: 320px;
+ }
+
+.custom-submit-btn {
+  background-color: white;
+  border: 2px solid #333;
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-weight: 500;
+  color: #333;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.custom-submit-btn:hover {
+  background-color: #333;
+  color: white;
+}
+
+.login-page {
+  background-image: url('../assets/gallery/loginbg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.login-page .card {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+}
+
+.signup-page {
+  background-image: url('../assets/gallery/loginbg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.signup-page .card {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+}
+.buynow-btn{
+  background-color: white;  
+  font-weight: 500;
+  border-radius: 10px;
+  border: 2px solid #333;
+  margin-top: 5%;
+  font-size: 1.2rem;
+  padding: 12px 24px;
+}
+
+.buynow-btn:hover{
+  background-color: #333;
+  color: white;
+}
+@media (max-width: 767px) {
+  .product-img {
+    margin-bottom: 20px;
+  }
+}
+
+/* Smaller font and tighter layout for desktop */
+@media (min-width: 768px) {
+  .product-details h2 {
+    font-size: 1.8rem;
+  }
+
+  .product-details p {
+    font-size: 1rem;
+  }
+
+  .product-details h4 {
+    font-size: 1.3rem;
+  }
+
+  .buynow-btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
